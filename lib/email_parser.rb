@@ -20,10 +20,19 @@ class EmailParser
   end
 
   def parse
+<<<<<<< HEAD
     #emails.split(/, | /).uniq
     #emails.split("," || " ").uniq
     emails.split(/[,\s]+/).uniq 
         # binding.pry
+=======
+    emails.split(",")
+              binding.pry
+    
+        #.map do |e|
+        #e.split(" ")  
+        #end.to_s
+>>>>>>> a12500c44d034c0ef3600737218d445655706cf2
   end
  end
  
@@ -33,8 +42,13 @@ class EmailParser
     #   each.split(',')
     # end.flatten.uniq
   
+<<<<<<< HEAD
         #end.to_s
     #end
   #end
 #end
 
+=======
+  
+end
+>>>>>>> a12500c44d034c0ef3600737218d445655706cf2
